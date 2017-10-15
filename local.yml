@@ -19,7 +19,6 @@ services:
     ports:
       - "80:8000"
     command: /start.sh
-    env_file: .env
 
   postgres:
     build:
