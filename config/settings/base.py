@@ -273,3 +273,4 @@ ADMIN_URL = r'^admin/'
 
 # Your common stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
+ALLOWED_HOSTS = ['34.209.167.23', 'http://ec2-34-209-167-23.us-west-2.compute.amazonaws.com/']
